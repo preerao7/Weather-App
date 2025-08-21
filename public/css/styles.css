@@ -1,0 +1,87 @@
+body{
+    color: #333333;
+    font-family: arial;
+    max-width: 650px; 
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    min-height:100vh
+
+}
+
+h2{
+    font-size: 3.7em;
+}
+
+header a{
+    color:grey;
+    font-size: 18.5px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding-right: 20px;
+
+}
+
+header{
+    padding: 5px
+
+}
+
+footer{
+    border-top: 1px solid black;
+    margin-top: 5px;
+
+}
+
+.potrait{
+    width: 450px;
+    padding-left: 10px;
+    margin-left: 20 px
+}
+
+.address{
+  
+    margin: 15px 5px;
+}
+
+input::placeholder{
+    opacity: 0.75;
+    color: lightslategrey;
+}
+
+input{
+    
+    width: 250px;
+    border-radius: 4px;
+    padding: 4px;
+
+}
+
+#search{
+    margin-left: 5px;
+    padding: 4px;
+}
+.main-content p{
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+.main-content{
+    flex-grow: 1;
+
+}
+
+.output{
+    color: #402b3e;
+    font: 16px bold ;
+    font-family: 'Roboto Flex', sans-serif; /* variable font */
+    font-style: oblique 15deg;    
+    white-space: pre-wrap; 
+    padding-left: 15px;
+    padding-right: 10px;
+
+
+}
