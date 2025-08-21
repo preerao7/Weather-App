@@ -1,6 +1,3 @@
-console.log('Client side Javascript is loaded')
-
-//setup a fetch call to fetch weather data from weather API for Boston
 
 const weatherForm = document.querySelector('form');
 const addressInputForm = document.querySelector('input')
