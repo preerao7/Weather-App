@@ -23,7 +23,7 @@ hbs.registerPartials(partialsPath)
 
 
 app.get('/about',(req, res)=>{
-    res.render('About',{
+    res.render('about',{
         title: 'About Me',
         name: 'Preetham'
     })
